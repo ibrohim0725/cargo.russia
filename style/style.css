@@ -53,11 +53,7 @@
     line-height: 24px;
     color: #363738;
     border-bottom: 3px solid#FFCE50;
-
 }
-
-@media screen and (max-width:1024px) {}
-
 
 .search {
     padding-top: 47px;
@@ -132,14 +128,133 @@
     background-image: url(../images/cargo1.png);
     background-position: right;
     background-repeat: no-repeat;
-    /* clip-path: polygon(49% 0, 100% 0%, 100% 100%, 81% 100%); */
+    margin-bottom: 72px;
 }
 
 .cargo-title-mobile {
     display: none;
 }
 
+.lorem {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-left: 66px;
+
+}
+
+.lorem-card {
+    width: 447px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 62px;
+    margin-right: 140px;
+}
+
+.lorem-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #E9E9EC;
+}
+
+.lorem-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #363738;
+    font-family: 'exo 2', sans-serif;
+}
+
+.lorem-desc {
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    margin-top: 16px;
+    width: 291px;
+}
+
+.servise-sales {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servise-title {
+    font-family: 'exo 2', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #363738;
+    margin-bottom: 32px;
+}
+
+.servise-desc {
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    width: 600px;
+    margin-bottom: 56px;
+
+}
+
+.servise-card {
+    width: 393px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    border-radius: 10px;
+}
+
+.sales-title {
+    font-family: 'exo 2', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #363738;
+    width: 327px;
+    margin-bottom: 16px;
+}
+
+.sales-descriptions {
+    padding-top: 24px;
+    padding-right: 34px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.sales-desc {
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    width: 291px;
+    margin-bottom: 32px;
+}
+
+.sales-descriptions span {
+    font-family: 'exo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #363738;
+    border-bottom: 3px solid#FFCE50;
+    padding: 7px;
+
+}
+
 @media screen and (max-width:1024px) {
+
+
     .container {
         padding-right: 20px;
         padding-left: 20px;
@@ -147,6 +262,24 @@
 
     .hero-title-container {
         text-align: center;
+    }
+
+    .hero-title {
+        width: 690px;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 55px;
+        margin-left: -80px;
+    }
+
+    .hero-desc {
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 690px;
+        margin-left: -90px;
+
     }
 
     .search {
@@ -207,9 +340,50 @@
     .cargo-title-mobile {
         display: none;
     }
+
+    .lorem-card {
+        margin-left: 55px;
+    }
+
+    .servise-card3 {
+        display: none;
+    }
+
+    .servise-card {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .sales-desc {
+        width: 100%;
+    }
+
+    .servise-img {
+        width: 100%;
+    }
+
+    .servise-title {
+
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 55px;
+
+
+    }
+
 }
 
+
 @media screen and (max-width:450px) {
+    .hero-title{
+        width: 344px;
+      margin-left: 30px;
+    }
+    .hero-desc{
+        width: 344px;
+        margin-left: 40px;
+    }
     .search {
         width: 345px;
         display: block;
@@ -218,8 +392,8 @@
         padding-bottom: 32px;
         padding-right: 27px;
         padding-left: 0px;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 8px;
+        margin-left: 8px;
 
     }
 
@@ -256,14 +430,63 @@
     .cargo-title-mobile {
         display: block;
         margin-top: 57px;
-        margin-left: 12px;
+        margin-bottom: 48px;
         font-family: 'exo 2', sans-serif;
         font-size: 28px;
         font-weight: 600;
         line-height: 35px;
-       
+        width: 250px;
 
     }
 
+    .lorem-card {
+        margin-left: -66px;
+        gap: 16px;
+    }
+
+    .lorem-title {
+        font-family: 'exo 2';
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.3px;
+    }
+
+    .lorem-desc {
+        font-family: 'pt sans';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+
+    }
+
+    .servise-desc {
+        width: 344px;
+    }
+
+    .servise-card2 {
+        display: none;
+    }
+
+    .sales-title {
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+
+    }
+
+    .sales-desc {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+    }
+
+    .servise-title {
+
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+
+    }
 
 }
