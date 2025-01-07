@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'pt sans';
+    src: url(../fonts/PTSans-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'pt sans';
+    src: url(../fonts/PTSans-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'exo 2';
+    src: url(../fonts/Exo2-SemiBold.woff);
+    font-weight: 600;
+}

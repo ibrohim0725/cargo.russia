@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 109px auto;
+    max-width: 1240px;
+    width: 100%;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    flex-wrap: wrap;
+
+}
+
+.hero-title {
+    font-family: 'exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 65px;
+    color: #363738;
+    margin-bottom: 40px;
+
+
+}
+
+.hero-title-container {
+    max-width: 500px;
+
+}
+
+.hero-desc {
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    margin-bottom: 40px;
+
+}
+
+.hero-title-container span {
+    font-family: 'pt sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #363738;
+    border-bottom: 3px solid#FFCE50;
+
+}
+
+@media screen and (max-width:1024px) {}
+
+
+.search {
+    padding-top: 47px;
+    padding-bottom: 56px;
+    padding-left: 80px;
+    padding-right: 122px;
+    margin-top: 67px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 20px;
+
+}
+
+.search-card img {
+    margin-bottom: 24px;
+    width: 92px;
+    height: 62px;
+}
+
+.search-title {
+    width: 240px;
+    font-family: 'exo 2 ', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #363738;
+    margin-bottom: 16px;
+}
+
+.search-desc {
+    font-family: 'pt sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6C;
+    width: 228px;
+}
+
+.line {
+    height: 261px;
+    border: 1px solid #d7d7d7;
+    margin-right: 64px;
+    margin-left: 90px;
+}
+
+.cargo-container {
+
+    background-color: #0B7572;
+    width: 769px;
+    height: 453px;
+    clip-path: polygon(0 0, 54% 0, 100% 100%, 0 100%);
+}
+
+.cargo-title {
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-family: 'exo 2', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 362px;
+    margin-top: 178px;
+
+}
+
+.cargo {
+    margin-top: 67px;
+    height: 453px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/cargo1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    /* clip-path: polygon(49% 0, 100% 0%, 100% 100%, 81% 100%); */
+}
+
+.cargo-title-mobile {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .hero-title-container {
+        text-align: center;
+    }
+
+    .search {
+        border: none;
+        box-shadow: none;
+    }
+
+    .search-card {
+        margin-bottom: 16px;
+        display: flex;
+        text-align: center;
+        border: 1px;
+        border-radius: 20px;
+        padding: 32px 30px;
+        box-shadow: 0px 4px 15px 0px #0000001F;
+        width: 950px;
+    }
+
+    .search-title {
+        width: 359px;
+    }
+
+    .search-desc {
+        width: 394px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .cargo {
+        background-image: url(../images/cargo2.png);
+        height: 383px;
+        width: 729px;
+
+    }
+
+    .cargo-container {
+
+        background-color: #0B7572;
+        width: 600px;
+        height: 383px;
+        clip-path: polygon(0 0, 54% 0, 100% 100%, 0 100%);
+    }
+
+    .cargo-title {
+        margin-left: 85px;
+        color: #FFFFFF;
+        font-family: 'exo 2', sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        width: 288px;
+        margin-top: 112px;
+
+    }
+
+    .cargo-title-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .search {
+        width: 345px;
+        display: block;
+        box-shadow: 0px 4px 20px 0px #00000026;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        padding-right: 27px;
+        padding-left: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
+
+    }
+
+    .search-card {
+        border: none;
+        box-shadow: none;
+
+        width: 286px;
+        padding-top: 1px;
+        padding-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .search-title {
+        width: 238px;
+        margin-bottom: 12px;
+    }
+
+    .search-img {
+        margin-bottom: 16px;
+    }
+
+    .search-desc {
+        width: 310px;
+
+    }
+
+    .cargo {
+        display: none;
+    }
+
+    .cargo-title-mobile {
+        display: block;
+        margin-top: 57px;
+        margin-left: 12px;
+        font-family: 'exo 2', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+       
+
+    }
+
+
+}
